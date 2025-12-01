@@ -20,11 +20,11 @@ CREATE TABLE IF NOT EXISTS songs (
 conn.commit()
 
 # Add song
-title = "SUTRA"
-author = "nipplepeople"
+title = "Ali Pamtim Jos"
+author = "Hanka Paldum"
 date_listened = "2025-12-01"
 language = "Yugoslavian"
-notes = "Yugoslavian new classic"
+notes = "Yugoslavian classic"
 
 cursor.execute(
     'INSERT INTO songs (title, author, date_listened, language, notes) VALUES (?, ?, ?, ?, ?)',
